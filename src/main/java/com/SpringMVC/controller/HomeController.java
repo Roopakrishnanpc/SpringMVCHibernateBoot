@@ -70,7 +70,7 @@ public class HomeController {
 //	public String addMethod(@ModelAttribute("result") SpringMVCModel springMVCModel )//Model m)
 	//public String addMethod(SpringMVCModel s )//Model m)
 	{
-//For public String addMethod(@ModelAttribute SpringMVCModel springMVCModel , Model m) -> m.addAttribute("result",springMVCModel);
+//For public String addMethod(@ModelAttribute SpringMVCModel springMVCModel , Model m) - m.addAttribute("result",springMVCModel);
 		m.addAttribute("result",springMVCdemo);
 		return "result";
 	}
